@@ -5,7 +5,7 @@ function verificar(){
     var res = document.getElementById("res")
 
     if(fano.value.length == 0 || fano.value > ano ){
-        alert("Verifique os dados e tene novamente")
+        alert("Verifique os dados e tente novamente!")
     }else {
         var res2 = document.getElementById("res2")
         var fsex = document.getElementsByName("txtsexo")
